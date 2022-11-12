@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { AppStateProvider } from "../AppContext";
 import App from "../components/App";
 
-const Home: NextPage = () => {
+const WavePage: NextPage = () => {
   return (
     <AppStateProvider>
       <App />
@@ -10,4 +10,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default WavePage;
