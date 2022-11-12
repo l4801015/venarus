@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: "/venarus/",
+  assetPrefix: '/venarus',
+  basePath: '/venarus',
   //swcMinify: true,
 };
 
