@@ -59,27 +59,27 @@ const Slider2 = () => {
       <div className="relative w-[390px] h-[230px] mobile:w-[458px] mobile:h-[270px]">
         {/* image 1 */}
         <div className="absolute w-[100%] h-[100%]" style={translate(xs[0])}>
-          <Image src="/slider2_image1.png" layout="fill" />
+          <Image src="/venarus/slider2_image1.png" layout="fill" />
           {xs[0] === 0 ? <PlayButton /> : <></>}
         </div>
         {/* image 2 */}
         <div className="absolute w-[100%] h-[100%]" style={translate(xs[1])}>
-          <Image src="/slider2_image2.png" layout="fill" />
+          <Image src="/venarus/slider2_image2.png" layout="fill" />
           {xs[1] === 0 ? <PlayButton /> : <></>}
         </div>
         {/* image 3 */}
         <div className="absolute w-[100%] h-[100%]" style={translate(xs[2])}>
-          <Image src="/slider2_image1.png" layout="fill" />
+          <Image src="/venarus/slider2_image1.png" layout="fill" />
           {xs[2] === 0 ? <PlayButton /> : <></>}
         </div>
         {/* image 4 */}
         <div className="absolute w-[100%] h-[100%]" style={translate(xs[3])}>
-          <Image src="/slider2_image2.png" layout="fill" />
+          <Image src="/venarus/slider2_image2.png" layout="fill" />
           {xs[3] === 0 ? <PlayButton /> : <></>}
         </div>
         {/* image 5 */}
         <div className="absolute w-[100%] h-[100%]" style={translate(xs[4])}>
-          <Image src="/slider2_image1.png" layout="fill" />
+          <Image src="/venarus/slider2_image1.png" layout="fill" />
           {xs[4] === 0 ? <PlayButton /> : <></>}
         </div>
       </div>
@@ -129,10 +129,10 @@ const AboutProduction = () => {
     <section className="relative h-[858px] overflow-hidden mb-[185px]">
       <div className="absolute overflow-hidden inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
         <div className="absolute top-0 w-screen h-[300px]">
-          <Image src="/wave-up.svg" layout="fill" />
+          <Image src="/venarus/wave-up.svg" layout="fill" />
         </div>
         <div className="absolute bottom-0 w-screen h-[300px]">
-          <Image src="/wave-down.svg" layout="fill" />
+          <Image src="/venarus/wave-down.svg" layout="fill" />
         </div>
       </div>
       <div className="relative z-20 flex gap-[30px] flex-col translate-y-[20%] laptop:translate-y-[100%] laptop:gap-[50px] laptop:flex-row laptop:max-w-[1160px] laptop:m-auto">
