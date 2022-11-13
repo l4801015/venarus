@@ -19,10 +19,10 @@ const WithContent = () => (
   <div className="flex justify-center items-center">
     <div className="relative w-[304px] h-[304px]">
       <div className="hidden tablet:block tablet:absolute w-[304px] h-[304px] tablet:translate-x-[29%] tablet:translate-y-[-11%]">
-        <Image src="/1.png" layout="fill" />
+        <Image src="/venarus/1.png" layout="fill" />
       </div>
       <div className="tablet:absolute w-[304px] h-[304px] tablet:translate-x-[-29%] tablet:translate-y-[12%]">
-        <Image src="/3.png" layout="fill" />
+        <Image src="/venarus/3.png" layout="fill" />
       </div>
     </div>
   </div>

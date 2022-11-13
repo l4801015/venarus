@@ -4,7 +4,7 @@ import { not } from "../utils";
 const PE = () => (
   <div className="relative w-[263px] h-[67px]">
     <div className="absolute w-[67px] h-[67px]">
-      <Image src="/provenEffectiveness.svg" layout="fill" />
+      <Image src="/venarus/provenEffectiveness.svg" layout="fill" />
     </div>
     <div className="absolute w-[165px] h-[50px] right-0 top-2/4 translate-y-[-50%]">
       <span className="font-Merriweather text-[#242424] leading-[25px] text-[16px]">
@@ -16,7 +16,7 @@ const PE = () => (
 const ND = () => (
   <div className="relative w-[263px] h-[57px]">
     <div className="absolute w-[67px] h-[57px]">
-      <Image src="/newDosage.svg" layout="fill" />
+      <Image src="/venarus/newDosage.svg" layout="fill" />
     </div>
     <div className="absolute w-[165px] h-[50px] right-0 top-2/4 translate-y-[-50%]">
       <span className="font-Merriweather text-[#242424] leading-[25px] text-[16px]">
@@ -42,7 +42,7 @@ const CR = () => {
   return (
     <div className="relative w-[360px] h-[57px]">
       <div className="absolute w-[67px] h-[57px]">
-        <Image src="/comfortableReception.svg" layout="fill" />
+        <Image src="/venarus/comfortableReception.svg" layout="fill" />
       </div>
       <div className="absolute w-[263px] h-[50px] right-0 top-2/4 translate-y-[-50%]">
         <span className="font-Merriweather text-[#242424] leading-[25px] text-[16px]">
@@ -56,7 +56,7 @@ const CR = () => {
           setIsOpen(not(isOpen));
 
           }} className="absolute w-[30px] h-[30px] bottom-0 right-[20px]">
-          <Image src="/info.svg" layout="fill" />
+          <Image src="/venarus/info.svg" layout="fill" />
         </div>
       </div>
       <div style={fade(isOpen)} className="absolute right-[60px] bottom-[25px] w-[200px] h-[100px] bg-[#590D56] text-[#fff] flex justify-center items-center rounded-lg drop-shadow-md">

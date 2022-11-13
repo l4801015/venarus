@@ -7,10 +7,10 @@ const Header = () => {
 
       <div className="absolute overflow-hidden inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
         <div className="absolute top-0 w-screen h-[300px]">
-          <Image src="/wave-up.svg" layout="fill" />
+          <Image src="/venarus/wave-up.svg" layout="fill" />
         </div>
         <div className="absolute bottom-0 w-screen h-[300px]">
-          <Image src="/wave-down.svg" layout="fill" />
+          <Image src="/venarus/wave-down.svg" layout="fill" />
         </div>
       </div>
 
@@ -26,19 +26,19 @@ const Header = () => {
             <div className="hidden laptop:flex flex-col gap-[30px] font-[RobotoRegular] text-[18px] text-[#590D56] leading-[21px]">
               <div className="flex gap-[30px] items-center">
                 <div className="relative w-[67px] h-[67px]">
-                  <Image src="/header_play.svg" layout="fill" />
+                  <Image src="/venarus/header_play.svg" layout="fill" />
                 </div>
                 <div className="underline">Схема приема</div>
               </div>
               <div className="flex gap-[30px] items-center">
                 <div className="relative w-[68px] h-[67px]">
-                  <Image src="/header_download.svg" layout="fill" />
+                  <Image src="/venarus/header_download.svg" layout="fill" />
                 </div>
                 <div className="underline">Инструкция</div>
               </div>
               <div className="flex gap-[30px] items-center">
                 <div className="relative w-[67px] h-[80px]">
-                  <Image src="/header_location.svg" layout="fill" />
+                  <Image src="/venarus/header_location.svg" layout="fill" />
                 </div>
                 <div className="underline">Где купить</div>
               </div>
@@ -52,19 +52,19 @@ const Header = () => {
           <div className="block laptop:hidden mt-[60px] flex flex-col gap-[30px] font-[RobotoRegular] text-[18px] text-[#590D56] leading-[21px]">
             <div className="flex gap-[30px] items-center">
               <div className="relative w-[67px] h-[67px]">
-                <Image src="/header_play.svg" layout="fill" />
+                <Image src="/venarus/header_play.svg" layout="fill" />
               </div>
               <div className="underline">Схема приема</div>
             </div>
             <div className="flex gap-[30px] items-center">
               <div className="relative w-[68px] h-[67px]">
-                <Image src="/header_download.svg" layout="fill" />
+                <Image src="/venarus/header_download.svg" layout="fill" />
               </div>
               <div className="underline">Инструкция</div>
             </div>
             <div className="flex gap-[30px] items-center">
               <div className="relative w-[67px] h-[80px]">
-                <Image src="/header_location.svg" layout="fill" />
+                <Image src="/venarus/header_location.svg" layout="fill" />
               </div>
               <div className="underline">Где купить</div>
             </div>

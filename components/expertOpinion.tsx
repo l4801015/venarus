@@ -45,7 +45,7 @@ const Slider3 = () => {
           {xs.map((n: number, i: number) => {
             return (
               <div key={i} className="absolute w-full h-full" style={styles(i)}>
-                <Image src="/slider3_image1.png" layout="fill" />
+                <Image src="/venarus/slider3_image1.png" layout="fill" />
               </div>
             );
           })}

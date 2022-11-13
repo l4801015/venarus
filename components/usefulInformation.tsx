@@ -30,7 +30,7 @@ const WithContent = () => (
         Профилак - тические упражнения
       </div>
       <div className="absolute w-full h-full">
-        <Image src="/useful_image2.png" layout="fill" />
+        <Image src="/venarus/useful_image2.png" layout="fill" />
       </div>
     </div>
     {/* block 2 */}
@@ -40,7 +40,7 @@ const WithContent = () => (
         Диагностика и способы лечения
       </div>
       <div className="absolute w-full h-full">
-        <Image src="/useful_image1.png" layout="fill" />
+        <Image src="/venarus/useful_image1.png" layout="fill" />
       </div>
     </div>
     {/* block 3 */}
@@ -68,10 +68,10 @@ const UsefulInformation = () => {
     <section className="overflow-hidden relative laptop:h-[1100px] mb-[90px] laptop:mb-[0px]">
       <div className="z-10 absolute overflow-hidden inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
         <div className="absolute top-0 w-screen h-[300px]">
-          <Image src="/wave-up.svg" layout="fill" />
+          <Image src="/venarus/wave-up.svg" layout="fill" />
         </div>
         <div className="absolute bottom-0 w-screen h-[300px]">
-          <Image src="/wave-down.svg" layout="fill" />
+          <Image src="/venarus/wave-down.svg" layout="fill" />
         </div>
       </div>
       <div className="relative z-20 translate-y-[10%] mobile:translate-y-[20%] laptop:!translate-y-[50%] flex gap-[30px] flex-col laptop:gap-[50px] laptop:flex-row laptop:max-w-[1160px] laptop:m-auto">

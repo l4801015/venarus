@@ -70,19 +70,19 @@ const Slider = () => {
             className="absolute w-[400px] h-[400px]"
             style={translate(vertex1)}
           >
-            <Image src="/1.png" layout="fill" />
+            <Image src="/venarus/1.png" layout="fill" />
           </div>
           <div
             className="absolute w-[400px] h-[400px]"
             style={translate(vertex2)}
           >
-            <Image src="/2.png" layout="fill" />
+            <Image src="/venarus/2.png" layout="fill" />
           </div>
           <div
             className="absolute w-[400px] h-[400px]"
             style={translate(vertex3)}
           >
-            <Image src="/3.png" layout="fill" />
+            <Image src="/venarus/3.png" layout="fill" />
           </div>
         </div>
       </div>

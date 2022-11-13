@@ -65,16 +65,16 @@ const Nav = () => {
                     className="relative w-[71px] h-[13px]"
                     style={translate("upper", isOpen)}
                   >
-                    <Image src="/closed.svg" layout="fill" />
+                    <Image src="/venarus/closed.svg" layout="fill" />
                   </div>
                   <div className="relative w-[71px] h-[13px]">
-                    <Image src="/closed.svg" layout="fill" />
+                    <Image src="/venarus/closed.svg" layout="fill" />
                   </div>
                   <div
                     className="relative w-[71px] h-[13px]"
                     style={translate("lower", isOpen)}
                   >
-                    <Image src="/closed.svg" layout="fill" />
+                    <Image src="/venarus/closed.svg" layout="fill" />
                   </div>
                 </div>
               </div>
@@ -97,19 +97,19 @@ const Nav = () => {
             </div>
             {/* Curve 2 124 */}
             <div className="absolute w-full translate-y-[180%]" style={height(126)}>
-              <Image src="/Mcurve2.svg" layout="fill" />
+              <Image src="/venarus/Mcurve2.svg" layout="fill" />
             </div>
             {/* Curve 3 68 */}
             <div className="absolute w-full translate-y-[590%]" style={height(71)}>
-              <Image src="/Mcurve3.svg" layout="fill" />
+              <Image src="/venarus/Mcurve3.svg" layout="fill" />
             </div>
             {/* Curve 4 156 */}
             <div className="absolute w-full translate-y-[130%]" style={height(156)}>
-              <Image src="/Mcurve4.svg" layout="fill" />
+              <Image src="/venarus/Mcurve4.svg" layout="fill" />
             </div>
             {/* Curve 5 68 */}
             <div className="absolute w-full translate-y-[590%]" style={height(68)}>
-              <Image src="/Mcurve4.svg" layout="fill" />
+              <Image src="/venarus/Mcurve4.svg" layout="fill" />
             </div>
           </div>
           <div
