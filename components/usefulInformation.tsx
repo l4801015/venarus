@@ -65,7 +65,7 @@ const WithContent = () => (
 
 const UsefulInformation = () => {
   return (
-    <section className="overflow-hidden relative laptop:h-[1100px] mb-[90px] laptop:mb-[0px]">
+    <section className="overflow-hidden relative laptop:h-[1100px] mb-[0px]">
       <div className="z-10 absolute overflow-hidden inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
         <div className="absolute top-0 w-screen h-[300px]">
           <Image src="/venarus/wave-up.svg" layout="fill" />

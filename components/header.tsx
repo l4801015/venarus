@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <section className="overflow-hidden relativ mt-[151px] mobile:mt-[140px] laptop:h-[760px]">
 
-      <div className="absolute overflow-hidden inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
+      <div className="absolute overflow-hidden translate-y-[10%] laptop:translate-y-[0%] inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
         <div className="absolute top-0 w-screen h-[300px]">
           <Image src="/venarus/wave-up.svg" layout="fill" />
         </div>

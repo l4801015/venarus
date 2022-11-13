@@ -2,7 +2,6 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { mapFromSystemToSystem, matrixProd } from "../utils";
 import { PlayButton } from "./utilsComponents";
-import Wave from "./wave";
 
 const WithInfo = () => (
   <>
@@ -126,13 +125,13 @@ const Slider2 = () => {
 
 const AboutProduction = () => {
   return (
-    <section className="relative h-[858px] overflow-hidden mb-[185px] laptop:mb-[0px]">
+    <section className="relative h-[858px] overflow-hidden mb-[0px]">
       <div className="absolute overflow-hidden inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
         <div className="absolute top-0 w-screen h-[300px]">
           <Image src="/venarus/wave-up.svg" layout="fill" />
         </div>
         <div className="absolute bottom-0 w-screen h-[300px]">
-          <Image src="/wave-down.svg" layout="fill" />
+          <Image src="/venarus/wave-down.svg" layout="fill" />
         </div>
       </div>
       <div className="relative z-20 flex gap-[30px] flex-col translate-y-[20%] laptop:translate-y-[100%] laptop:gap-[50px] laptop:flex-row laptop:max-w-[1160px] laptop:m-auto">
