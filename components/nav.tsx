@@ -93,7 +93,7 @@ const Nav = () => {
           <div className="relative">
             {/* Curve 1 231 */}
             <div className="absolute w-full translate-y-[-10%]" style={height(233)}>
-              <Image src={BasePath + "/Mcurve1.svg"} layout="fill" />
+              <Image src="/venarus/Mcurve1.svg" layout="fill" />
             </div>
             {/* Curve 2 124 */}
             <div className="absolute w-full translate-y-[180%]" style={height(126)}>
