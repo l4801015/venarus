@@ -50,7 +50,7 @@ const WithContent = () => (
         Рекомен - дации по питанию
       </div>
       <div className="absolute w-full h-full">
-        <Image src="/useful_image3.png" layout="fill" />
+        <Image src="/venarus/useful_image3.png" layout="fill" />
       </div>
     </div>
     {/* block 4 */}
