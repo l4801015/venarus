@@ -4,6 +4,8 @@ import { Logo, Search, Icon } from "./utilsComponents";
 import { useState, useEffect } from "react";
 import { useAppState } from "../AppContext";
 
+const BasePath = "/venrus";
+
 const Nav = () => {
   const { state, dispatch } = useAppState();
   const [isOpen, setIsOpen] = useState(false);
@@ -91,7 +93,7 @@ const Nav = () => {
           <div className="relative">
             {/* Curve 1 231 */}
             <div className="absolute w-full translate-y-[-10%]" style={height(233)}>
-              <Image src="/Mcurve1.svg" layout="fill" />
+              <Image src={BasePath + "/Mcurve1.svg"} layout="fill" />
             </div>
             {/* Curve 2 124 */}
             <div className="absolute w-full translate-y-[180%]" style={height(126)}>

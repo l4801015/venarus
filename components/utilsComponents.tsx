@@ -1,41 +1,43 @@
 import Image from "next/image";
 
+
+
 export const Search = () => (
   <div className="relative w-[48px] h-[47px]">
-    <Image src="/search.svg" layout="fill" />
+    <Image src="/venarus/search.svg" layout="fill" />
   </div>
 );
 
 export const Icon = () => (
   <div className="relative w-[41px] h-[49px]">
-    <Image src="/location.svg" layout="fill" />
+    <Image src="/venarus/location.svg" layout="fill" />
   </div>
 );
 
 export const Logo = () => (
   <div className="relative w-[195px] h-[32px]">
-    <Image src="/logo.svg" layout="fill" />
+    <Image src="/venarus/logo.svg" layout="fill" />
   </div>
 );
 
 export const O = () => (
   <div className="relative w-[32px] h-[24px]">
-    <Image src="/o.svg" layout="fill" />
+    <Image src="/venarus/o.svg" layout="fill" />
   </div>
 );
 export const T = () => (
   <div className="relative w-[25px] h-[24px]">
-    <Image src="/t.svg" layout="fill" />
+    <Image src="/venarus/t.svg" layout="fill" />
   </div>
 );
 export const F = () => (
   <div className="relative w-[28px] h-[24px]">
-    <Image src="/f.svg" layout="fill" />
+    <Image src="/venarus/f.svg" layout="fill" />
   </div>
 );
 export const V = () => (
   <div className="relative w-[25px] h-[24px]">
-    <Image src="/v.svg" layout="fill" />
+    <Image src="/venarus/v.svg" layout="fill" />
   </div>
 );
 
