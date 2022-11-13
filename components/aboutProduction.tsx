@@ -126,7 +126,7 @@ const Slider2 = () => {
 
 const AboutProduction = () => {
   return (
-    <section className="relative h-[858px] overflow-hidden mb-[0px]">
+    <section className="relative h-[858px] overflow-hidden mb-[185px]">
       <div className="absolute overflow-hidden inset-0 bg-gradient-to-r to-[#590D56] from-[#8C1688]">
         <div className="absolute top-0 w-screen h-[300px]">
           <Image src="/venarus/wave-up.svg" layout="fill" />
