@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useEffect } from "react";
 
 const WithInfo = () => (
   <>
@@ -9,7 +8,9 @@ const WithInfo = () => (
     </div>
     <div className="font-[RobotoRegular] text-[16px] leading-[24px] text-[#777777]">
       <span className="block whitespace-nowrap">Ветонизирующее средство</span>
-      <span className="block whitespace-nowrap">ВЕНАРУС вы можете приобрести в</span>
+      <span className="block whitespace-nowrap">
+        ВЕНАРУС вы можете приобрести в
+      </span>
       <span className="block whitespace-nowrap">аптеках вашего города</span>
     </div>
   </>
@@ -40,17 +41,17 @@ const WhereBuy = () => {
         </div>
       </div>
       <div className="flex gap-[30px] flex-col items-center tablet:flex-row tablet:justify-center mt-[60px] laptop:max-w-[1160px] laptop:mx-auto laptop:!justify-end">
-        <div className="relative w-[263px] h-[67px] border-[1px] border-black rounded-full">
+        <div className="transition hover:bg-[#590D56] hover:text-[#fff] text-[#590D56] relative w-[263px] h-[67px] border-[1px] border-[#590D56] rounded-full">
           <span className="absolute top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%] font-[RobotoRegular] text-[18px] leading-[21px]">
             apteka.ru
           </span>
         </div>
-        <div className="relative w-[263px] h-[67px] border-[1px] border-black rounded-full">
+        <div className="transition hover:bg-[#590D56]  hover:text-[#fff] relative w-[263px]  text-[#590D56] h-[67px] border-[1px] border-[#590D56] rounded-full">
           <span className="absolute top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%] font-[RobotoRegular] text-[18px] leading-[21px]">
             366.ru
           </span>
         </div>
-        <div className="relative w-[263px] h-[67px] border-[1px] border-black rounded-full">
+        <div className="transition hover:bg-[#590D56] hover:text-[#fff] relative w-[263px] text-[#590D56] h-[67px] border-[1px] border-[#590D56] rounded-full">
           <span className="absolute top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%] font-[RobotoRegular] text-[18px] leading-[21px]">
             stolichki.ru
           </span>
